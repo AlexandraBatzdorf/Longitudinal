@@ -1,0 +1,5 @@
+"Comparison","tStatistic","PValue","Confidence_Interval"
+"0 Months vs. Controls","24.71","<0.001"," -9.24,  -2.90"
+"6 Months vs. Controls","17.71","<0.001","-10.91,  -4.46"
+"12 Months vs. Controls","12.14","<0.001","-10.95,  -4.53"
+"24 Months vs. Controls"," 5.38","<0.001","-24.65, -18.34"
