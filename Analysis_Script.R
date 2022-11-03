@@ -311,9 +311,9 @@ bdi.model <- lmer(BDI ~ timepoint + (1|ID), data=sg.example, na.action=na.exclud
     scale_x_continuous(breaks=c(0, 6, 12, 24), expand=c(0.0035, 0.0035), 
                        limits=c(0, 24.9)) +
     scale_linetype_manual(name="Group", values=c("Patients"=1, "Controls"=2)) +
-    scale_color_manual(name="Group", values = c("Patients"="black", 
+    scale_color_manual(name="Group", values=c("Patients"="black", 
                                                 "Controls"="red")) +
-    scale_fill_manual(name="Group", values = c("Patients"="red", "Controls"=NA)) +
+    scale_fill_manual(name="Group", values=c("Patients"="red", "Controls"=NA)) +
     scale_alpha_manual(name="Group", values=c("Patients"=1, "Controls"=0)) +
     guides(linetype=guide_legend(override.aes=list(linetype=c(1, 3),
                                                            fill=c("red", NA),
